@@ -237,7 +237,7 @@ List of 300 VueJS Interview Questions
 |228| [What is the reason for recommendation for multi-word component names?](#what-is-the-reason-for-recommendation-for-multi-word-component-names)|
 |229| [How to use composition API in Vue2.0?](#how-to-use-composition-api-in-vue2.0)|
 |230| [What is composition API?](#what-is-composition-api)|
-
+|231| [Difference between filters and directives?](#Difference between filters and directives?)
 1.  ### What is VueJS?
     **Vue.js** is an open-source, progressive Javascript framework for building user interfaces that aim to be incrementally adoptable. The core library of VueJS is focused on the `view layer` only, and is easy to pick up and integrate with other libraries or existing projects.
 
@@ -4989,4 +4989,11 @@ List of 300 VueJS Interview Questions
 230. ### What is composition API?
      Composition API is a set of additive, function-based APIs that allow flexible composition of component logic.
 
+     **[⬆ Back to Top](#table-of-contents)**
+        
+ 231. ###Difference between filters and directives?  
+     A directive is some special token in the markup that tells the library to do something to a DOM element. Eg v-if, v-show, v-else-if.
+     A Vue.js filter is essentially a function that takes a value, processes it, and then returns the processed value. In the markup it is denoted by a single pipe      (|) and can be followed by one or more arguments. <span v-text="message | capitalize"></span>
+
+        
      **[⬆ Back to Top](#table-of-contents)**
